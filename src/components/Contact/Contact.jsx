@@ -1,4 +1,4 @@
-const Contact = ({ id, name, number, onDelete }) => (
+const Contact = ({ name, number, onDelete }) => (
   <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
     <p>
       {name}: {number}
